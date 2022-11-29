@@ -1,16 +1,5 @@
-#include <stdio.h>
-/**
- *main - entry point
- *Description: random number in n +ve/-ve
- *Return: 0 on success
- */
-int main(void)
-{
-int n;
-for (n = 0; n < 10; n++)
-{
-printf("%d", n);
-}
-printf("\n");
-return (0);
-}
+#!/usr/bin/python3
+for i in range(0, 99):
+    print("{}{}".format((i // 10), (i % 10)), end=", ")
+    i += i
+print("{:d}".format(99))
