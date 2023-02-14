@@ -1,8 +1,7 @@
 0x0D. SQL - Introduction
 
 Structured Query Language
-
-TASK
+Tasks
 0. List databases
 Write a script that lists all databases of your MySQL server.
 1. Create a database
